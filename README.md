@@ -1,5 +1,7 @@
 # airplanes
 
+Jupyter notebook [here](./src/airplanes.ipynb)
+
 __Background__
 
 In the datasets there are domestic commercial passenger flights in the United States (routes, departure and arrival time, along with delays information).
@@ -19,8 +21,12 @@ __Success criteria__
 
 ---
 
-#### Setup environment
+#### Instructions
 
 ```
+$ git clone https://github.com/alemelis/airplanes.git
+$ cd airplanes
 $ conda env create -f env.yml
+$ source activate ds
+$ jupyter notebook
 ```
